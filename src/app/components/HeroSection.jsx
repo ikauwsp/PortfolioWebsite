@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion';
+import { DownloadPdfButton } from './DownloadPdfButton';
 
 export const HeroSection = () => {
   return (
@@ -43,13 +44,14 @@ export const HeroSection = () => {
                     Hire me!
                 </a>
                 </button>
-                <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-teal-600 to-purple-500 hover:bg-slate-800 text-white' mt-3 >
+                {/* <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-teal-600 to-purple-500 hover:bg-slate-800 text-white' mt-3 >
                     <a href='public/wongsaphat-resume.pdf' download useProxy>
                     <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 '>
                         Download CV
                     </span>
                     </a>
-                </button>
+                </button> */}
+                <DownloadPdfButton pdfUrl="../../../public/wongsaphat-resume.pdf" pdfFileName="wongsaphat-resume.pdf"/>
             </div>
 
             </motion.div>
