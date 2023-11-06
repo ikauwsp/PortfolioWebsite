@@ -5,6 +5,7 @@ import { ProjectSection } from './components/ProjectSection';
 import { Footer } from './components/Footer';
 import { EmailSection } from './components/EmailSection';
 import Link from 'next/link';
+import Head from 'next/head';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
           <EmailSection/>
             </div>
           <Footer/>
+   
       </main>
   );
 }
