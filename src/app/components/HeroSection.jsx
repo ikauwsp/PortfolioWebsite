@@ -20,15 +20,14 @@ export const HeroSection = () => {
                 <TypeAnimation
                     sequence={[
                         "Wongsaphat",
-                        1000,
+                        1500,
                         "a Web Developer",
                         1000,
-                        "Mobile Developer",
+                        "a Mobile Developer",
                         1000,
                         "a UI/UX Designer",
                         1000,
-                        "a Fullstack Wannabe",
-                        1000,
+                       
                     ]}
                     wrapper='span'
                     speed={50}
@@ -36,21 +35,22 @@ export const HeroSection = () => {
                 />
             </h1>
             <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                As a sophomore with a passion for software development, data science, and entrepreneurship, I've gained valuable experience from starting 
-                my own vintage clothing business. Although it's not directly related to software development, I've discovered various opportunities to 
-                apply my skills to help my business grow and succeed.
+            Love creating beautiful user experience. Aspiring fullstack developer!
             </p>
             <div className='py-4'>
-                <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-teal-600 to-purple-500 hover:bg-slate-200 text-white'>Hire me!</button>
+                <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-500 via-teal-600 to-purple-500 hover:bg-slate-200 text-white'>
+                <a href='https://www.linkedin.com/in/wongsaphat/'>
+                    Hire me!
+                </a>
+                </button>
                 <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-teal-600 to-purple-500 hover:bg-slate-800 text-white' mt-3 >
+                    <a href='public/wongsaphat-resume.pdf' download>
                     <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2 '>
                         Download CV
                     </span>
+                    </a>
                 </button>
             </div>
-
-
-
 
             </motion.div>
             <motion.div
