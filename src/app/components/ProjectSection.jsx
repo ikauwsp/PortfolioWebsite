@@ -11,7 +11,7 @@ const projectsData = [
         description: 'Internship description',
         image: '/images/projects/gomo-intern.png',
         tag: ["All", "Mobile"],
-        previewUrl:"/",
+        previewUrl:"/project/internship2023",
 
     },
     {
@@ -20,7 +20,7 @@ const projectsData = [
         description: 'Project description',
         image: '/images/projects/med-minder.png' ,
         tag: ["All", "Mobile"],
-        previewUrl:"/",
+        previewUrl:"/project/medminderproject",
 
     },
     {
@@ -29,7 +29,7 @@ const projectsData = [
         description: 'Tech stack used : NextJS',
         image: '/images/projects/website.png',
         tag:["All", "Web"],
-        previewUrl:"/",
+        previewUrl:"/project/portfolioweb",
 
     },
 ]
